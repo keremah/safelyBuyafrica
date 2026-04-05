@@ -3,7 +3,7 @@
 const https = require("https");
 
 const SHEET_URL = process.env.GOOGLE_SHEET_WEBHOOK_URL ||
-  "https://script.google.com/macros/s/AKfycbziYF5uAeD1Ewlhb556ZDjACjiWviKNnKzpGCbivQuzerXX3BVv3UH2dW6e6oYipfe7_g/exec";
+  "https://script.google.com/macros/s/AKfycbxyEH9fRfyzJT_M4H6FM1Bri4RX4H0f8fakh9t3sOIdJpNiI7M-VhRbPc0kR_M3756xvg/exec";
 
 function isValidEmail(e) {
   if (!e) return false;
